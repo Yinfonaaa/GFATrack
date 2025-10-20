@@ -1,21 +1,8 @@
 ## Install the environment
-**Option1**: Use the Anaconda (CUDA 10.2)
-```
-conda create -n gfatrack python=3.8
-conda activate gfatrack
-bash install.sh
-```
-
-**Option2**: Use the Anaconda (CUDA 11.3)
+Use the Anaconda (CUDA 11.3)
 ```
 conda env create -f gfatrack_cuda113_env.yaml
 ```
-
-**Option3**: Use the docker file
-
-We provide the full docker file here.
-
-
 ## Set project paths
 Run the following command to set paths for this project
 ```
